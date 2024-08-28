@@ -1,0 +1,52 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+
+.pokemon-container{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+.card{
+    width: 150px;
+    height: 220px;
+    border: 1px solid black;
+    box-shadow: 0 1px 10px black;
+}
+.card:hover{
+    box-shadow: 0 1px 5px yellow;
+   
+}
+.card img{
+    width: 100%;
+    padding: 15px;
+    transition: 0.3s;
+}
+.card ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.pokemon-id{
+    font-size: 10px;
+}
+.pokemon-name{
+    text-transform: capitalize;
+    color: blue;
+    font-weight: bold;
+}
+.pokemon-type{
+    font-size: 12px;
+}
+.lightning{
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 2px;
+}
